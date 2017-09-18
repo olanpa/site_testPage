@@ -1,0 +1,151 @@
+@import "var";
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:900');
+.wrapper {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  min-height: 95vh;
+  height: 100px;
+  margin: auto;
+  background: url("../img/bg.png") no-repeat center;
+  background-size: cover;
+  color: $text;
+  text-align: center;
+}
+ article{
+   width:100%;
+   align-self: center;
+   button{
+    background-color: $button;
+    border:none;
+
+    color:black;
+    font:900 17px 'Lato', sans-serif;
+    font-variant: small-caps;
+    line-height: 0;
+    a{
+      display:block;
+      padding:10%;
+      text-align: center;
+    }
+  }
+  h2+button{
+    width:208px;
+    height:48px;
+    margin-top: 45px;
+    &:active{
+      background-color: $buttonPressed;
+      color:white;
+    }
+  }
+h2{
+  font: 5vh Raleway;
+  letter-spacing: 2px;
+  margin: 100px auto 0;
+}
+ }
+header, nav{
+  width:83%;
+  margin:0 auto 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+}
+header{
+  height:40px;
+  padding:4px 0;
+  justify-content: space-between;
+  p{
+    line-height: 2.5em;
+    color:$button;
+  }
+}
+nav{
+  justify-content: space-between;
+  input{
+    display:none;
+  }
+  /*Hide dropdown links until they are needed*/
+  ul.main{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &>li{
+      display: block;
+      position:relative;
+      min-width: 50px;
+      padding:0 10px;
+      outline: greenyellow;
+      label{
+        display:block;
+      }
+      a{
+        display:block;
+        width:100%;
+        text-align: center;
+        outline: indianred;
+      }
+      &:hover{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+    }
+  }
+  li ul.dropMenu {
+    display: none;
+  }
+  /*Make dropdown links vertical*/
+  li ul.dropMenu li {
+    display: block;
+  }
+  /*Prevent text wrapping*/
+  li ul.dropMenu li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+  }
+  /*Display the dropdown on hover*/
+  ul.main>li:hover{
+    position:relative;
+  }
+  ul.main li.mainItems:hover a + .dropMenu, .dropMenu:hover {
+    display: block;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    background-color: white;
+    padding-bottom: 20px;
+    li{
+      display: block;
+      margin-top: 20px;
+      color:black;
+      text-transform: capitalize;
+    }
+    li:first-of-type{
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-top: 10px;
+      padding-bottom: 10px;
+      //border-bottom: 1px solid $button;
+      &::after{
+        content: '........';
+        color:white;
+        height: 0;
+        border-bottom: 3px solid $button;
+      }
+    }
+  }
+    }
+
+@import "_mobile";
+
+
+
+
+

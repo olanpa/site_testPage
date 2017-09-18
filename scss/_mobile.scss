@@ -1,0 +1,109 @@
+@media screen and (max-width: 1200px) {
+  nav {
+    position: relative;
+    ul.main {
+      display: block;
+      position: absolute;
+      overflow: hidden;
+      min-height: 100px;
+      min-width: 50px;
+      max-width: 50%;
+      top: 0;
+      right: 0;
+      background: url("../img/hamburger.png") no-repeat top right;
+      background-size: 50px auto;
+
+     li.mainItems{
+        position: static;
+        display: none;
+        width:80%;
+       ul.dropMenu{
+         display:none;
+       }
+      }
+
+      li{
+        width: 100%;
+        padding:0;
+        line-height: 35px;
+      }
+
+      &:hover {
+        min-width: 30%;
+        border-radius: 3px;
+        background: #494642;
+        padding: $padding;
+        transition: background 0.5s;
+        & > li.mainItems {
+          display: block;
+          min-height: 40px;
+          margin: 0 auto;
+          a {
+            display: block;
+            width: 100%;
+          }
+        }
+
+        li.mainItems:hover, li.mainItems a:hover {
+          height:100%;
+          transition: height 0.5s;
+          ul.dropMenu {
+            position: static;
+            display: block;
+            margin: 1px auto;
+            background-color:transparent;
+            transition: height 0.5s;
+            li, a{
+              width:auto;
+              margin:0;
+            }
+            li:first-of-type{
+              display:none;
+            }
+          }
+        }
+      }
+    }
+    //.main:hover
+  }
+  //nav
+
+}
+  //  nav{
+  //    &:hover{
+  //      li{
+  //        display:flex;
+  //        flex-direction: column;
+  //        align-items: center;
+  //        height:30px;
+  //        width:100%;
+  //        margin:$padding 0;
+  //        a:hover{
+  //          color:$button;
+  //          display: block;
+  //        }
+  //        &:hover>a+ul.dropMenu, ul.dropMenu:hover{
+  //          display: block;
+  //          min-width:200px;
+  //          position:relative;
+  //          top:0;
+  //        }
+  //        ul.dropMenu:hover{
+  //          height:100%;
+  //          width:100%;
+  //
+  //          li, li>a{
+  //            display: block;
+  //            border:1px solid gray;
+  //            width:100%;
+  //            background-color: transparent;
+  //          }
+  //          &>li:first-of-type{
+  //            display:none;
+  //          }
+  //        }
+  //      }
+  //    }
+  //    }
+  //  }
+
