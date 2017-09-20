@@ -1,5 +1,6 @@
 /*reset css*/
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:900");
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\000032}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,34 +22,42 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000324}}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000328}}
 body {
   line-height: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000331}}
 ol, ul {
   list-style: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000334}}
 blockquote, q {
   quotes: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000337}}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000342}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_reset\.scss}line{font-family:\0000346}}
 a {
   text-decoration: none;
   color: inherit;
   margin: 0;
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\000034}}
 .wrapper {
   font-size: 12px;
   display: -webkit-box;
@@ -72,10 +81,12 @@ a {
   color: #ffffff;
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000320}}
 article {
   width: 100%;
   -ms-flex-item-align: center;
       align-self: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000323}}
   article button {
     background-color: #ffd119;
     border: none;
@@ -83,22 +94,33 @@ article {
     font: 900 17px 'Lato', sans-serif;
     font-variant: small-caps;
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000331}}
     article button a {
-      display: block;
-      padding: 10%;
-      text-align: center; }
+      display: inline-block;
+      vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000337}}
   article h2 + button {
     width: 208px;
     height: 48px;
-    margin-top: 45px; }
+    margin-top: 45px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000342}}
+    article h2 + button:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000348}}
     article h2 + button:active {
       background-color: #ffc602;
       color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000353}}
   article h2 {
     font: 5vh Raleway;
     letter-spacing: 2px;
     margin: 100px auto 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000359}}
 header, nav {
   width: 83%;
   margin: 0 auto 16px;
@@ -110,16 +132,19 @@ header, nav {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000366}}
 header {
   height: 40px;
   padding: 4px 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000370}}
   header p {
     line-height: 2.5em;
     color: #ffd119; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000375}}
 nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -128,8 +153,7 @@ nav {
   /*Make dropdown links vertical*/
   /*Prevent text wrapping*/
   /*Display the dropdown on hover*/ }
-  nav input {
-    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000379}}
   nav ul.main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,19 +164,18 @@ nav {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000383}}
     nav ul.main > li {
       display: block;
       position: relative;
       min-width: 50px;
-      padding: 0 10px;
-      outline: greenyellow; }
-      nav ul.main > li label {
-        display: block; }
+      padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000388}}
       nav ul.main > li a {
         display: block;
         width: 100%;
-        text-align: center;
-        outline: indianred; }
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\0000393}}
       nav ul.main > li:hover {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -163,16 +186,21 @@ nav {
                 flex-direction: column;
         -ms-flex-pack: distribute;
             justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003100}}
   nav li ul.dropMenu {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003104}}
   nav li ul.dropMenu li {
     display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003108}}
   nav li ul.dropMenu li a {
     width: auto;
     min-width: 100px;
     padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003114}}
   nav ul.main > li:hover {
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003117}}
   nav ul.main li.mainItems:hover a + .dropMenu, nav .dropMenu:hover {
     display: block;
     position: absolute;
@@ -180,46 +208,56 @@ nav {
     left: -10px;
     background-color: white;
     padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003124}}
     nav ul.main li.mainItems:hover a + .dropMenu li, nav .dropMenu:hover li {
       display: block;
       margin-top: 20px;
       color: black;
       text-transform: capitalize; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003130}}
     nav ul.main li.mainItems:hover a + .dropMenu li:first-of-type, nav .dropMenu:hover li:first-of-type {
       text-transform: uppercase;
-      font-size: 16px;
+      font-weight: 600;
+      font-size: 14px;
       margin-top: 10px;
       padding-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/style\.scss}line{font-family:\00003137}}
       nav ul.main li.mainItems:hover a + .dropMenu li:first-of-type::after, nav .dropMenu:hover li:first-of-type::after {
         content: '........';
         color: white;
         height: 0;
-        border-bottom: 3px solid #ffd119; }
+        border-bottom: 2px solid #ffd119; }
 
 @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\000032}}
   nav {
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\000034}}
     nav ul.main {
       display: block;
       position: absolute;
       overflow: hidden;
       min-height: 100px;
-      min-width: 50px;
+      min-width: 70px;
       max-width: 50%;
       top: 0;
       right: 0;
       background: url("../img/hamburger.png") no-repeat top right;
       background-size: 50px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000315}}
       nav ul.main li.mainItems {
         position: static;
         display: none;
         width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000319}}
         nav ul.main li.mainItems ul.dropMenu {
           display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000324}}
       nav ul.main li {
         width: 100%;
         padding: 0;
         line-height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000330}}
       nav ul.main:hover {
         min-width: 30%;
         border-radius: 3px;
@@ -227,17 +265,21 @@ nav {
         padding: 5px;
         -webkit-transition: background 0.5s;
         transition: background 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000336}}
         nav ul.main:hover > li.mainItems {
           display: block;
           min-height: 40px;
           margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000340}}
           nav ul.main:hover > li.mainItems a {
             display: block;
             width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000346}}
         nav ul.main:hover li.mainItems:hover, nav ul.main:hover li.mainItems a:hover {
           height: 100%;
           -webkit-transition: height 0.5s;
           transition: height 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000349}}
           nav ul.main:hover li.mainItems:hover ul.dropMenu, nav ul.main:hover li.mainItems a:hover ul.dropMenu {
             position: static;
             display: block;
@@ -245,8 +287,10 @@ nav {
             background-color: transparent;
             -webkit-transition: height 0.5s;
             transition: height 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000355}}
             nav ul.main:hover li.mainItems:hover ul.dropMenu li, nav ul.main:hover li.mainItems:hover ul.dropMenu a, nav ul.main:hover li.mainItems a:hover ul.dropMenu li, nav ul.main:hover li.mainItems a:hover ul.dropMenu a {
               width: auto;
               margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Work\/Training\/SiteForJob_OliaKovalchuk\/scss\/_mobile\.scss}line{font-family:\0000359}}
             nav ul.main:hover li.mainItems:hover ul.dropMenu li:first-of-type, nav ul.main:hover li.mainItems a:hover ul.dropMenu li:first-of-type {
               display: none; } }

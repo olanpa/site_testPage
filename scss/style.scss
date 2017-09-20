@@ -23,21 +23,28 @@
    button{
     background-color: $button;
     border:none;
-
     color:black;
     font:900 17px 'Lato', sans-serif;
     font-variant: small-caps;
     line-height: 0;
+
     a{
-      display:block;
-      padding:10%;
-      text-align: center;
+      display: inline-block;
+      vertical-align: middle;
+
     }
   }
   h2+button{
     width:208px;
     height:48px;
     margin-top: 45px;
+    text-align: center;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
     &:active{
       background-color: $buttonPressed;
       color:white;
@@ -67,9 +74,7 @@ header{
 }
 nav{
   justify-content: space-between;
-  input{
-    display:none;
-  }
+
   /*Hide dropdown links until they are needed*/
   ul.main{
     display:flex;
@@ -80,15 +85,10 @@ nav{
       position:relative;
       min-width: 50px;
       padding:0 10px;
-      outline: greenyellow;
-      label{
-        display:block;
-      }
       a{
         display:block;
         width:100%;
         text-align: center;
-        outline: indianred;
       }
       &:hover{
         display:flex;
@@ -129,7 +129,8 @@ nav{
     }
     li:first-of-type{
       text-transform: uppercase;
-      font-size: 16px;
+      font-weight: 600;
+      font-size: 14px;
       margin-top: 10px;
       padding-bottom: 10px;
       //border-bottom: 1px solid $button;
@@ -137,7 +138,7 @@ nav{
         content: '........';
         color:white;
         height: 0;
-        border-bottom: 3px solid $button;
+        border-bottom: 2px solid $button;
       }
     }
   }

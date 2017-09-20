@@ -6,13 +6,12 @@
       position: absolute;
       overflow: hidden;
       min-height: 100px;
-      min-width: 50px;
+      min-width: 70px;
       max-width: 50%;
       top: 0;
       right: 0;
       background: url("../img/hamburger.png") no-repeat top right;
       background-size: 50px auto;
-
      li.mainItems{
         position: static;
         display: none;
